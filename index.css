@@ -1,0 +1,341 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+body{ height: 1200px;
+	    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.topbar{
+	background: #333;
+	height: 40px;
+	/*border: 1px solid red;*/
+	
+}
+.topbar a:hover{
+	color: #fff;
+}
+.container{
+	margin: 0 auto;
+	width: 1226px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.topbar-nav{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0;
+}
+.topbar-info,.topbar-cart{
+	float: right;
+	
+}
+.clear::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.topbar a{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+.topbar-nav span{
+	font-size: 12px;
+	color: #424242;
+	font-family: sans-serif;
+	margin: 0.5em;
+}
+.topbar-cart a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 120px;
+	background: #424242;
+}
+.topbar-cart span{
+	margin-left: -4px;
+	font-size: 12px;
+}
+.topbar-cart a:hover{
+	color: #f40;
+	background: #fff;
+}
+.topbar-info a{
+	float: left;
+	padding: 0 5px;
+	height: 40px;
+	line-height: 40px; 
+}
+.topbar-info span{
+	float: left;
+	font-family: serif;
+	font-size: 12px;
+	color:#424242;
+	height: 40px;
+	line-height: 40px; 
+}
+.topbar-info .sec{
+	padding:0 10px;
+}
+.topbar-info{
+	margin-right: 15px;
+}
+
+.header{
+	height: 100px;
+	
+}
+
+.header-logo{
+	float: left;
+	width: 62px;
+	margin-top: 22px;
+	/*border: 1px solid red;*/
+	height: 55px;
+}
+.header-nav{
+	float: left;
+	width: 820px;
+	/*border: 1px solid red;*/
+	height: 100px;
+}
+.header-search{
+	float: right;
+	width: 296px;
+	/*border: 1px solid red;*/
+	height: 50px;
+	margin-top: 25px;
+}
+.header-logo{
+	background: #f40;
+}
+.header-logo a.xm{
+	display: block;
+	
+	text-indent: -9999em;
+}
+.header-nav li{
+	float: left;
+
+}
+
+.header-nav .nav-list{
+	width: 820px;
+	height: 88px;
+	padding: 12px 0 0 30px;
+	
+}
+.header-nav .nav-list .nav-item a{
+	display: block;
+	padding: 26px 10px 38px;
+	font-size: 16px;
+	color: #333;
+}
+.header-nav .nav-list a:hover{
+	color: #f40;
+}
+.header-nav .nav-list .nav-i a{
+	float: left;
+	width: 127px;
+	padding: 0 15px 0 0;
+}
+.header-nav .nav-list .nav-i a{
+	text-align: right;
+	display: block;
+	padding: 26px 0 38px;
+	color: #333;
+	font-size: 16px;
+}
+
+.header-search .search-form{
+	display: block;
+	height: 50px;
+	width: 296px;
+	position: relative;
+}
+.header-search .search-form .search-text{
+	display: block;
+	width: 245px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #e0e0e0;
+	outline: 0;
+	font-size: 23px;
+	position: absolute;
+	top:0;
+	right: 51px;
+}
+.header-search .search-form .search-text:hover{
+
+}
+
+.header-search .search-form .search-btn{
+	width: 52px;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	font-size: 24px;
+	line-height: 24px;
+	background: #fff;
+	color: #616161;
+	outline: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header-search .search-form .search-btn:hover{
+	background: #f40;
+	color: #fff;
+}
+
+/*seckill*/
+.seckill{
+	background: #f5f5f5;
+}
+
+.seckill-header{
+	margin-top: 19px;
+	height: 170px;
+	background: url(img/1.jpg) no-repeat 50% 0;
+}
+.seckill-nav ul{
+	height: 68px;
+	background: #414141;
+	
+}
+.seckill-nav li{
+	display: block;
+	float: left;
+	color: #fff;
+	width: 20%;
+	height: 68px;
+	line-height:68px;
+	cursor: pointer;
+	text-align: center;
+}
+.active{
+	background: red;
+}
+.seckill-nav {
+	margin-top: -68px;
+}
+.seckill-nav li em{
+	display: inline-block;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1;
+	vertical-align: middle;
+	
+}
+.seckill-nav li span {
+	display: inline-block;
+	text-align: left;
+	font-size: 14px;
+	margin-left: 16px;
+	line-height: 1;
+	vertical-align: middle;
+}
+.seckill-goods{
+	margin-top: 20px;
+}
+.seckill-goods ul{
+	/*border: 1px solid red;*/
+	/*display: block;	*/
+	
+
+	margin-right: -13px;
+	display: none;
+}
+  .seckill-goods .show-detail{
+	display: block;
+}
+.seckill-goods li{
+	float: left;
+	width: 400px;
+	height: 190px;
+	background: #fff;
+	justify-content: space-between;
+	/*display: block;*/
+	/*border: 1px solid red;*/
+	margin-right: 13px;
+	margin-bottom: 13px;
+}
+ p.info{
+	margin-top: 100px;
+	font-size: 12px;
+	padding-bottom: 35px;
+	color: #999;
+	height: 50px;
+}
+.seckill-goods .bg{
+	/*background: url(img/5.png) no-repeat 50% 50%;*/
+	/*border: 1px solid red;*/
+	height: 190px;
+	width: 190px;
+	float: left;
+}
+.seckill-goods .bg img{
+	
+	height: 190px;
+}
+.seckill-goods .detail{
+	/*background: url(img/3.png) no-repeat;*/
+	/*border: 1px solid red;*/
+	height: 190px;
+	width: 190px;
+	margin-left: 210px;
+	padding-top: 30px;
+
+}
+div.seckill-goods div.detail a.name{
+	font-size: 16px;
+	height: 16px;
+	color: #333;
+	line-height: 16px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div.seckill-goods div.detail p.tips{
+	font-size: 12px;
+	line-height: 12px;
+	color: #b0b0b0;
+	margin-top: 10px;
+}
+div.seckill-goods div.detail p.price{
+	font-size: 16px;
+	line-height: 16px;
+	color: #f1393a;
+	margin-top: 14px;
+}
+div.seckill-goods div.detail p.price del{
+	font-size: 12px;
+	line-height: 12px;
+	color: #b0b0b0;	
+	margin-left: 9px;
+}
+
+div.seckill-goods div.detail .btn{
+	display: block;
+	width: 118px;
+	height: 28px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 28px;
+	text-align: center;
+	background: #f1393a;
+	margin-top: 20px;
+}
+div.seckill-goods div.detail p.person{
+	font-size: 12px;
+	line-height: 12px;
+	color: #999;
+	margin-top: 15px;
+}
